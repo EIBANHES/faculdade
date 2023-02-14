@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container .quadrado{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+.container .direto {
+    background-color: black;
+    right: 0px
+}
+
+.container .inf-direto {
+    background-color: blue;
+    right: 0px;
+    bottom: 0px;
+} 
+
+.container .sup-esquerdo {
+    background-color: red;
+}
