@@ -1,0 +1,22 @@
+.cabecalho h1 {
+    text-align: center;
+}
+
+.cabecalho .separacao {
+  width: 95%;
+  height: 1px;
+  background-color: #000000;
+}       
+
+.container .titulo-imagem{
+    text-align: center;
+}
+
+.container .titulo-imagem img {
+    width: 250px;
+}
+
+.container a {
+    display: block;
+    text-align: center;
+}
