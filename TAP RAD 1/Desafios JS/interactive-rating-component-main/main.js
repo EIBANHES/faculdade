@@ -13,10 +13,11 @@ ratings.forEach((ratings) => {
       active.classList.remove("checked");
     }
     const rate_value = e.target;
+    console.log(e);
     rate_value.classList.add("checked");
     rate_point = e.target.innerText;
   });
-});
+});''
 
 submit_btn.addEventListener("click", (e) => {
   if (rate_point) {
